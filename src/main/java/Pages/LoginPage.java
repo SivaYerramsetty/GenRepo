@@ -14,7 +14,7 @@ public class LoginPage extends DriverScript {
 
 
 
-	public void loginpage(){
+	public LoginPage(){
 
 		PageFactory.initElements(driver, this);
 	}

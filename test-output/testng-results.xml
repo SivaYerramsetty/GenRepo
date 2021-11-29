@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7667" started-at="2021-11-28T23:37:45Z" finished-at="2021-11-28T23:37:53Z">
+  <suite name="Default suite" duration-ms="7831" started-at="2021-11-29T02:40:45Z" finished-at="2021-11-29T02:40:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7667" started-at="2021-11-28T23:37:45Z" finished-at="2021-11-28T23:37:53Z">
-      <class name="Base.DriverScript">
-        <test-method status="PASS" signature="initapp()[pri:0, instance:Base.DriverScript@77cd7a0]" name="initapp" duration-ms="7613" started-at="2021-11-28T23:37:45Z" finished-at="2021-11-28T23:37:53Z">
+    <test name="Default test" duration-ms="7831" started-at="2021-11-29T02:40:45Z" finished-at="2021-11-29T02:40:52Z">
+      <class name="TestCases.LoginTestCase">
+        <test-method status="PASS" signature="pretest()[pri:0, instance:TestCases.LoginTestCase@3c0ecd4b]" name="pretest" is-config="true" duration-ms="7116" started-at="2021-11-29T02:40:45Z" finished-at="2021-11-29T02:40:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initapp -->
-      </class> <!-- Base.DriverScript -->
+        </test-method> <!-- pretest -->
+        <test-method status="PASS" signature="Validatelogin()[pri:0, instance:TestCases.LoginTestCase@3c0ecd4b]" name="Validatelogin" duration-ms="684" started-at="2021-11-29T02:40:52Z" finished-at="2021-11-29T02:40:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validatelogin -->
+      </class> <!-- TestCases.LoginTestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
